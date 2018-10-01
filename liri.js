@@ -9,7 +9,7 @@ var command = process.argv[2];
 var queryURL = "";
 var media = process.argv.slice(3).join(" ");
 
-// Check if command from user
+// Check if valid command given from user
 function init() {
     if (command === "concert-this") {
         concertThis();
