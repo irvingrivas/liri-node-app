@@ -8,7 +8,7 @@
 
      * Venue location
 
-     * Date of the Event (use moment to format this as "MM/DD/YYYY")
+     * Date of the Event (format "MM/DD/YYYY")
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
@@ -22,9 +22,7 @@
      
      * The album that the song is from
 
-   * If no song is provided then your program will default to "The Sign" by Ace of Base.
-   
-   * You will utilize the [node-spotify-api](https://www.npmjs.com/package/node-spotify-api) package in order to retrieve song information from the Spotify API.
+   * If no song is provided then the program will default to "The Sign" by Ace of Base.
    
    * The Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a **client id** and **client secret**:
 
@@ -56,8 +54,6 @@
      * If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
      
      * It's on Netflix!
-   
-   * You'll use the request package to retrieve data from the OMDB API. Like all of the in-class activities, the OMDB API requires an API key. You may use `trilogy`.
 
 4. `node liri.js do-what-it-says`
    
@@ -65,4 +61,3 @@
      
      * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
      
-     * Feel free to change the text in that document to test out the feature for other commands.
