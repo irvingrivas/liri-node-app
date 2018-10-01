@@ -74,6 +74,9 @@ function spotifyThis() {
 }
 
 function movieThis() {
+    if (media === "") {
+        media = "Mr. Nobody";
+    }
     request("http://www.omdbapi.com/?t=" + media +
         "&y=&plot=short&apikey=trilogy",
         function (error, response, body) {
