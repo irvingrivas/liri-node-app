@@ -1,5 +1,10 @@
 # liri-node-app
 
+To get app, run the following command in a bash terminal:
+- git clone "https://github.com/irvingrivas/liri-node-app"
+
+Or you can copy all files in above URL manually (not recommended)
+
 1. `node liri.js concert-this <artist/band name here>`
 
    * This will search the Bands in Town Artist Events API (`"https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"`) for an artist and render the following information about each event to the terminal:
