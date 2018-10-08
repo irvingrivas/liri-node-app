@@ -34,6 +34,7 @@ function concertThis() {
     request(queryURL, function (err, response, body) {
         // Parse the response body (string) to a JSON object
         var jsonData = JSON.parse(body)[0];
+        
         var rawdate = moment(jsonData.datetime.split("T")[0], "YYYY-MM-DD");
         // showData ends up being the string containing the show data we will print to the console
         var showData = [
